@@ -44,19 +44,12 @@ div.titleBar>div.controlGroup>div {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 50ms ease-in-out;
+  transition: 20ms ease-in-out;
 }
-div.titleBar>div.controlGroup>div>img {
-  width: 15px;
-  height: 15px;
-  filter: invert();
-}
-div.titleBar>div.controlGroup>div#close {
-  background-color: rgb(151, 47, 47);
+div.titleBar>div.controlGroup>div>svg {
+  width: 12px;
+  height: 12px;
 }
 div.titleBar>div.controlGroup>div#close:hover {
-  background-color: rgb(119, 38, 38);
-}
-div.titleBar>div.controlGroup>div#minimize:hover {
-  background-color: rgb(60, 59, 65);
+  background-color: rgb(151, 47, 47);
 }
