@@ -1,9 +1,7 @@
-const component = () => {
-  const element = document.createElement('div');
+import { setup } from './game'
 
-  element.innerHTML = "Hello webpack"
+document.getElementById("close").addEventListener("click", e => {
+  window.close()
+})
 
-  return element
-}
-
-document.body.appendChild(component())
+setup()
