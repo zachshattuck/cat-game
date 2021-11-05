@@ -1,6 +1,6 @@
 import { gameLoop, setup } from './game'
 
-document.getElementById("close").addEventListener("click", e => {
+document.getElementById("close").addEventListener("click", () => {
   window.close()
 })
 

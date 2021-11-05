@@ -2,6 +2,8 @@ const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
 
+const reload = require('electron-reload')(`${__dirname}/dist`)
+
 const createWindow = () => {
   win = new BrowserWindow({
     width: 800,
@@ -10,11 +12,7 @@ const createWindow = () => {
     titleBarStyle: 'hidden'
   })
 
-  win.loadURL(url.format({
-    pathname: path.join(__dirname, 'dist/index.html'),
-    protocol: 'file',
-    slashes: true,
-  }))
+  win.loadURL(`file://${__dirname}/dist/index.html`)
 }
 
 app.on('ready', createWindow)
