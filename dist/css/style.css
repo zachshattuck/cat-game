@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100%;
-
   font-family: 'Roboto', sans-serif;
 }
 html, body {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -43,7 +41,6 @@ div.titleBar>div.controlGroup>div {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   transition: 20ms ease-in-out;
 }
 div.titleBar>div.controlGroup>div>svg {

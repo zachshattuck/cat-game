@@ -5,7 +5,7 @@ const url = require('url')
 const createWindow = () => {
   win = new BrowserWindow({
     width: 800,
-    height: 625,
+    height: 630,
     resizable: false,
     titleBarStyle: 'hidden'
   })
