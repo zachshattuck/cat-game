@@ -28,6 +28,8 @@ div.titleBar>div.title {
   flex-grow: 1;
   font-size: 12px;
   padding-left: 15px;
+  
+  user-select: none;
 }
 
 div.titleBar>div.controlGroup {

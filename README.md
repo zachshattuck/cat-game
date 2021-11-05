@@ -7,6 +7,6 @@ I have no real plan for this game other than to explore Pixi.JS and Electron.
 `npm install`  
 Then, in two seperate consoles...  
 `npm run wpb` and  
-`npm start`  
+`npm run dev`  
 
 And ta-da! Hot reloading Electron window.
