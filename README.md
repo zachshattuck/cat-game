@@ -5,7 +5,7 @@ I have no real plan for this game other than to explore Pixi.JS and Electron.
 
 ### Running the game (development)
 `npm install`  
-In two seperate consoles...
+Then, in two seperate consoles...  
 `npm run wpb` and  
 `npm start`  
 
